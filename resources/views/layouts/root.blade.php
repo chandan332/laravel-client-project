@@ -17,7 +17,7 @@
       crossorigin="anonymous"
     />
 
-    {{-- custom css --}}
+    <!-- custom css -->
     <link rel="stylesheet" href="css/global.css">
     <link rel="stylesheet" href="css/home/styles.css">
     
@@ -74,11 +74,22 @@
                         >
                         </li>
                         <li class="nav-item me-2">
-                        <a class="nav-link @if ($route == '/about')
-                            active
-                        @endif" aria-current="page" href="/about"
-                            ><i class="fa-solid fa-user"></i> About</a
-                        >
+                            <a class="nav-link 
+                            @if ($route == '/about')
+                                active
+                            @endif" aria-current="page" href="/about"
+                            >
+                                <i class="fa-solid fa-user"></i> About
+                            </a>
+                        </li>
+                        <li class="nav-item me-2">
+                            <a class="nav-link 
+                            @if ($route == '/contact')
+                                active
+                            @endif" aria-current="page" href="/contact"
+                            >
+                                <i class="fa-solid fa-address-book"></i> Contact us
+                            </a>
                         </li>
                     </ul>
                     </div>
@@ -91,11 +102,11 @@
       {{-- Footer --}}
       <footer class="  p-4" style="background-color:hsl(60, 50%, 90%);">
             <div class="p-3 row align-items-baseline rounded " style="background-color:hsl(60, 50%, 70%);">
-                <div class="col-12 col-md mt-2 ms-2 ms-md-5 " >
+                <div class="col-12 col-md mt-2 ms-md-4 " >
                     <p><i class="fa-solid fa-envelope fa-beat"></i> info@legalsuccessindia.com</p>
                     <p><i class="fa-solid fa-phone fa-beat"></i> (+91) 6290634766</p>
                 </div>
-                <div class="col-12 col-md mt-2 ms-2 ms-md-5 ">
+                <div class="col-12 col-md mt-2 ms-md-4 ">
                     <h3>Services</h3>
                     <div>
                     <ul>
@@ -114,7 +125,7 @@
                     </ul>
                     </div>
                 </div>
-                <div class="col-12 col-md mt-2 ms-2 ms-md-5 ">
+                <div class="col-12 col-md mt-2 ms-md-4 ">
                     <h3>Menu</h3>
                     <div>
                     <ul>

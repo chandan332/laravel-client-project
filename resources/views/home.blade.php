@@ -8,17 +8,24 @@
         <h1 class="">LEGAL SUCCESS INDIA</h1>
       </div>
       <div style="--delay: 600ms">
-        <p class="fs-4">
+        {{-- <p class="fs-4">
           <i class="text-primary fw-semibold ">
             Well, it seems like FICCI's 2018 study exposed a spicy truth about
             Indian food businesses</i
           >
           – only 23% had their FSSAI licence, leaving the rest in a flavourless
           soup of non-compliance.
+        </p> --}}
+        <h5 class="text-primary-emphasis ">Wanna Acquire Your FSSAI License?</h5>
+        <p><span class="text-danger-emphasis ">Answer: </span>
+          <i class=""> Failure to comply with food safety regulations is not an option. 
+          Without an FSSAI license, your food business risks severe penalties, closures, and reputational damage. 
+          Protect your customers and safeguard your business's future. 
+          Acquire your FSSAI license today.</i>
         </p>
       </div>
       <div style="--delay: 800ms">
-        <a href="/services" class="btn btn-danger ">GET STARTED</a>
+        <a href="/services" class="btn btn-danger ">Apply Now</a>
       </div>
     </div>
     <div class="col-12 col-md bg-image " style="background-image: url('images/fatemeh-rz-V-A3UpAKtpc.jpg')"></div>

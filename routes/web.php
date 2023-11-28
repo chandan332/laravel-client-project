@@ -25,6 +25,10 @@ Route::get('/services', function (){
     return view('services');
 });
 
+Route::get('/contact', function (){
+    return view('contact');
+});
+
 Route::get('/pricing', function (){
     return view('pricing');
 });
